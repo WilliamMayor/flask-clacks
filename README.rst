@@ -9,8 +9,8 @@ Flask-Clacks
 .. image:: https://img.shields.io/travis/WilliamMayor/flask-clacks.svg
         :target: https://travis-ci.org/WilliamMayor/flask-clacks
 
-.. image:: https://readthedocs.org/projects/flask-clacks/badge/?version=latest
-        :target: https://flask-clacks.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/flask-clacks/badge/
+        :target: https://flask-clacks.readthedocs.io/en/latest/
         :alt: Documentation Status
 
 A man is not dead while his name is still spoken.
