@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/WilliamMayor/flask_clacks/issues.
+Report bugs at https://github.com/WilliamMayor/flask-clacks/issues.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ articles, and such.
 Submit Feedback
 ~~~~~~~~~~~~~~~
 
-The best way to send feedback is to file an issue at https://github.com/WilliamMayor/flask_clacks/issues.
+The best way to send feedback is to file an issue at https://github.com/WilliamMayor/flask-clacks/issues.
 
 If you are proposing a feature:
 
@@ -57,16 +57,16 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up `flask_clacks` for local development.
+Ready to contribute? Here's how to set up `flask-clacks` for local development.
 
-1. Fork the `flask_clacks` repo on GitHub.
+1. Fork the `flask-clacks` repo on GitHub.
 2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/flask_clacks.git
+    $ git clone git@github.com:your_name_here/flask-clacks.git
 
 3. Install your local copy into a virtualenv. Assuming you have virtualenv installed, this is how you set up your fork for local development::
 
-    $ cd flask_clacks/
+    $ cd flask-clacks/
     $ virtualenv venv
     $ . venv/bin/activate
     $ pip install . .[dev] .[test]
@@ -101,5 +101,5 @@ Before you submit a pull request, check that it meets these guidelines:
    your new functionality into a function with a docstring, and add the
    feature to the list in README.rst.
 3. The pull request should work for Python 2.7 and 3.3+. Check
-   https://travis-ci.org/WilliamMayor/flask_clacks/pull_requests
+   https://travis-ci.org/WilliamMayor/flask-clacks/pull_requests
    and make sure that the tests pass for all supported Python versions.

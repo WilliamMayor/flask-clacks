@@ -36,7 +36,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author="William Mayor",
     author_email='mail@williammayor.co.uk',
-    url='https://github.com/WilliamMayor/flask_clacks',
+    url='https://github.com/WilliamMayor/flask-clacks',
     py_modules=['flask_clacks'],
     include_package_data=True,
     install_requires=requirements,

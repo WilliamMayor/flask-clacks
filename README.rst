@@ -3,18 +3,18 @@ Flask-Clacks
 ===============================
 
 
-.. image:: https://img.shields.io/pypi/v/flask_clacks.svg
-        :target: https://pypi.python.org/pypi/flask_clacks
+.. image:: https://img.shields.io/pypi/v/flask-clacks.svg
+        :target: https://pypi.python.org/pypi/flask-clacks
 
-.. image:: https://img.shields.io/travis/WilliamMayor/flask_clacks.svg
-        :target: https://travis-ci.org/WilliamMayor/flask_clacks
+.. image:: https://img.shields.io/travis/WilliamMayor/flask-clacks.svg
+        :target: https://travis-ci.org/WilliamMayor/flask-clacks
 
 .. image:: https://readthedocs.org/projects/flask-clacks/badge/?version=latest
         :target: https://flask-clacks.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/WilliamMayor/flask_clacks/shield.svg
-     :target: https://pyup.io/repos/github/WilliamMayor/flask_clacks/
+.. image:: https://pyup.io/repos/github/WilliamMayor/flask-clacks/shield.svg
+     :target: https://pyup.io/repos/github/WilliamMayor/flask-clacks/
      :alt: Updates
 
 
@@ -56,7 +56,7 @@ Apply to all routes, sending only Terry Pratchett's name in the overhead.
 .. code:: python
 
     from flask import Flask
-    from flask_clacks import Clacks
+    from flask-clacks import Clacks
 
     app = Flask(__name__)
     Clacks(app)
@@ -72,7 +72,7 @@ overhead.
 .. code:: python
 
     from flask import Flask
-    from flask_clacks import Clacks
+    from flask-clacks import Clacks
 
     app = Flask(__name__)
     Clacks(app, names=('John Dearheart', ))
@@ -88,7 +88,7 @@ Apply to specific routes, sending different names back on different responses.
 .. code:: python
 
     from flask import Flask
-    from flask_clacks import clacks
+    from flask-clacks import clacks
 
     app = Flask(__name__)
 
