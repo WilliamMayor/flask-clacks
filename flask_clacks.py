@@ -5,7 +5,7 @@ from flask import make_response
 
 __author__ = 'William Mayor'
 __email__ = 'mail@williammayor.co.uk'
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 
 class Clacks(object):
