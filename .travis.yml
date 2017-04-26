@@ -9,13 +9,18 @@ deploy:
     secure: Mn2mBsf+CTg/QYU/kQbqj5NPc7LDlqZN9iBVuop8wwotB3ZcTC/0aWOZ3hr80w3UfJqPaCIo9OvItzKhY8eOT3RANbEOFF6snm9mRBcwwnpIMqNTKqZ1pL5sR3TpAKvYT8Xc9kUnLFE7QLfBbuXFlbiTj0abaqhyPsX4z8OYUJdXp99/3K1JgFQ+AYdbB7snyNl2HhITPzhwlsI0MrEFSvaoh/HHJYMO1qxntd0apBRiO3LvpqZ46jlybiYm4Qn397Z2qZmhb/yMp/THMaZV57oG3WiNMz98HQZIC584SpZmKXxN51P73xsKmAAJbWq07yGmxhuduTuRmYBjv60aT924He/iYnQ1vTBRgNbHnH+Z2SiM/Tj1v/mXqxVFJLRZU1DZFx4Lv39Hnh09STUZu0v8sCX89mnZiCy5T8sJCuEf+dEwju83/fCMf+UW1dHJ7UZ0u20BwmEkiyPE0rrrPs+8ST3GBKG6SGn2+AtIyaKsQtbbuLuwjVnTz7IzgNbqa5OyYElKSVxGPdcqKz6waHQr8wFkgfSyoE7Xv3779+boTuWk9C5/liOF3YKSk74mUDlXHsD9Z5AnIMWicNbW0L3fLL8oxZ7S8wvhsBDTYN3zsGYdpLJ1hHbrflwgMpS5NikHr9TqKBispU+6WJAQCuz+h0ihE7ooflIY+uSwL6U=
   provider: pypi
   user: WilliamMayor
-env:
-  - TOXENV=py36
-  - TOXENV=py35
-  - TOXENV=py34
-  - TOXENV=py33
-  - TOXENV=py27
 install: pip install -U tox
 language: python
-python: 3.5
 script: tox -e ${TOXENV}
+matrix:
+  include:
+    - python: 2.7
+      env: TOXENV=py27
+    - python: 3.3
+      env: TOXENV=py33
+    - python: 3.4
+      env: TOXENV=py34
+    - python: 3.5
+      env: TOXENV=py35
+    - python: 3.6
+      env: TOXENV=py36
