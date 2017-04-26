@@ -31,7 +31,7 @@ extras = {
 
 setup(
     name='flask-clacks',
-    version='1.0.0',
+    version='1.0.1',
     description="A man is not dead while his name is still spoken.",
     long_description=readme + '\n\n' + history,
     author="William Mayor",
