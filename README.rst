@@ -13,11 +13,6 @@ Flask-Clacks
         :target: https://flask-clacks.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
-.. image:: https://pyup.io/repos/github/WilliamMayor/flask-clacks/shield.svg
-     :target: https://pyup.io/repos/github/WilliamMayor/flask-clacks/
-     :alt: Updates
-
-
 A man is not dead while his name is still spoken.
 
 This is a very simple Flask extension that adds 'X-Clacks-Overhead' headers to
